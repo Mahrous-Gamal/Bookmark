@@ -73,7 +73,7 @@ function displaydata() {
         <tr>
                         <td>${i + 1}</td>
                         <td>${sitecontainer[i].name}</td>
-                        <td><button class="btn btn-success px-md-4"><i class="fa-regular fa-eye me-md-2"></i> <a href="${sitecontainer[i].url}" target="_blank" rel="noopener noreferrer">  <span class="up">Visit</span></a></button></td>
+                        <td><button class="btn btn-success px-md-4"> <a href="${sitecontainer[i].url}" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-eye me-md-2"></i> <span class="up">Visit</span></a></button></td>
                         <td><button class="btn btn-warning px-md-4" onclick="setDate(${i})" ><i class="fa-solid fa-pen-to-square me-md-1"></i> <span class="up">Update</span> </button></td>
                         <td><button class="btn btn-danger px-md-4"  onclick="deletSite(${i})"><i class="fa-solid fa-trash-can me-md-1"></i> <span class="up">Delete</span> </button></td>
 
@@ -103,7 +103,7 @@ function searchSite() {
             <tr>
             <td>${i + 1}</td>
             <td>${sitecontainer[i].name}</td>
-            <td><button class="btn btn-success px-md-4"><i class="fa-regular fa-eye me-md-2"></i> <a href="${sitecontainer[i].url}" target="_blank" rel="noopener noreferrer">  <span class="up">Visit</span></a></button></td>
+            <td><button class="btn btn-success px-md-4"> <a href="${sitecontainer[i].url}" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-eye me-md-2"></i> <span class="up">Visit</span></a></button></td>
             <td><button class="btn btn-warning px-md-4" onclick="setDate(${i})" ><i class="fa-solid fa-pen-to-square me-md-1"></i> <span class="up">Update</span> </button></td>
             <td><button class="btn btn-danger px-md-4"  onclick="deletSite(${i})"><i class="fa-solid fa-trash-can me-md-1"></i> <span class="up">Delete</span> </button></td>
                         </tr>

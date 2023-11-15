@@ -26,7 +26,7 @@ sudo git clone https://github.com/Mahrous-Gamal/Bookmark.git
 Windows:
 
 ```bash
-git clone https://github.com/Mahrous-Gamal/Bookmark.gitt
+git clone https://github.com/Mahrous-Gamal/Bookmark.git
 ```
 
 ### Contact
